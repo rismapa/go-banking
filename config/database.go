@@ -1,10 +1,10 @@
 package config
 
 import (
-	"github.com/okyws/go-banking/domain"
+	"github.com/rismapa/go-banking/domain"
 
 	"github.com/jmoiron/sqlx"
-	logger "github.com/okyws/go-banking-lib/config"
+	logger "github.com/rismapa/go-banking-lib/config"
 )
 
 /*

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	logger "github.com/okyws/go-banking-lib/config"
-	"github.com/okyws/go-banking/dto"
+	logger "github.com/rismapa/go-banking-lib/config"
+	"github.com/rismapa/go-banking/dto"
 )
 
 func ResponseJSON(w http.ResponseWriter, data interface{}, code int, status string, message string) {

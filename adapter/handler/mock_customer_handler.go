@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	logger "github.com/okyws/go-banking-lib/config"
-	"github.com/okyws/go-banking/domain"
-	"github.com/okyws/go-banking/service"
+	logger "github.com/rismapa/go-banking-lib/config"
+	"github.com/rismapa/go-banking/domain"
+	"github.com/rismapa/go-banking/service"
 )
 
 type CustomerHandler struct {

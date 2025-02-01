@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/okyws/go-banking/routes"
+	"github.com/rismapa/go-banking/routes"
 
 	_ "github.com/go-sql-driver/mysql"
 )

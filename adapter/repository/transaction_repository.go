@@ -3,8 +3,9 @@ package adapter
 import (
 	"database/sql"
 	"fmt"
-	"github.com/okyws/go-banking/domain"
 	"time"
+
+	"github.com/rismapa/go-banking/domain"
 
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"

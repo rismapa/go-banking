@@ -2,8 +2,9 @@ package service
 
 import (
 	"fmt"
-	adapter "github.com/okyws/go-banking/adapter/repository"
-	"github.com/okyws/go-banking/domain"
+
+	adapter "github.com//go-banking/adapter/repository"
+	"github.com/rismapa/go-banking/domain"
 )
 
 type TransactionService interface {

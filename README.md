@@ -1,4 +1,4 @@
-# github.com/okyws/go-banking
+# github.com/rismapa/go-banking
 
 ## Getting started
 
@@ -13,14 +13,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/okyws/github.com/okyws/go-banking.git
+git remote add origin https://gitlab.com/rismapa/github.com/rismapa/go-banking.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/okyws/github.com/okyws/go-banking/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/rismapa/github.com/rismapa/go-banking/-/settings/integrations)
 
 ## Collaborate with your team
 

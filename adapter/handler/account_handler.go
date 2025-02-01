@@ -6,14 +6,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/okyws/go-banking/domain"
-	"github.com/okyws/go-banking/dto"
-	"github.com/okyws/go-banking/service"
-	"github.com/okyws/go-banking/utils"
+	"github.com/rismapa/go-banking/domain"
+	"github.com/rismapa/go-banking/dto"
+	"github.com/rismapa/go-banking/service"
+	"github.com/rismapa/go-banking/utils"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"
-	logger "github.com/okyws/go-banking-lib/config"
+	logger "github.com/rismapa/go-banking-lib/config"
 
 	"golang.org/x/crypto/bcrypt"
 )

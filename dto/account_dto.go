@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/okyws/go-banking/domain"
+import "github.com/rismapa/go-banking/domain"
 
 type AccountRequest[T any] struct {
 	Customer_ID string  `json:"cust_id" validate:"required,uuid"`

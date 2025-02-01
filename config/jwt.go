@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	logger "github.com/okyws/go-banking-lib/config"
+	logger "github.com/rismapa/go-banking-lib/config"
 )
 
 type Claims struct {

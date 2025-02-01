@@ -2,7 +2,8 @@ package adapter
 
 import (
 	"fmt"
-	"github.com/okyws/go-banking/domain"
+
+	"github.com/rismapa/go-banking/domain"
 
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"

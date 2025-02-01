@@ -5,19 +5,19 @@ import (
 
 	"net/http"
 
-	hand "github.com/okyws/go-banking/adapter/handler"
-	repo "github.com/okyws/go-banking/adapter/repository"
-	conf "github.com/okyws/go-banking/config"
-	"github.com/okyws/go-banking/domain"
-	serv "github.com/okyws/go-banking/service"
+	hand "github.com/rismapa/go-banking/adapter/handler"
+	repo "github.com/rismapa/go-banking/adapter/repository"
+	conf "github.com/rismapa/go-banking/config"
+	"github.com/rismapa/go-banking/domain"
+	serv "github.com/rismapa/go-banking/service"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
 	"github.com/jmoiron/sqlx"
-	repoauth "github.com/okyws/go-banking-auth/adapter/repository"
-	middleware "github.com/okyws/go-banking-auth/middleware"
-	servauth "github.com/okyws/go-banking-auth/service"
-	logger "github.com/okyws/go-banking-lib/config"
+	repoauth "github.com/rismapa/go-banking-auth/adapter/repository"
+	middleware "github.com/rismapa/go-banking-auth/middleware"
+	servauth "github.com/rismapa/go-banking-auth/service"
+	logger "github.com/rismapa/go-banking-lib/config"
 )
 
 func NewRouter(router *mux.Router, db *sqlx.DB) {

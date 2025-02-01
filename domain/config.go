@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	logger "github.com/okyws/go-banking-lib/config"
+	logger "github.com/rismapa/go-banking-lib/config"
 	"github.com/spf13/viper"
 )
 

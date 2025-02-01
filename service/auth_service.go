@@ -2,8 +2,9 @@ package service
 
 import (
 	"fmt"
-	adapter "github.com/okyws/go-banking/adapter/repository"
-	config "github.com/okyws/go-banking/config"
+
+	adapter "github.com/rismapa/go-banking/adapter/repository"
+	config "github.com/rismapa/go-banking/config"
 
 	"golang.org/x/crypto/bcrypt"
 )

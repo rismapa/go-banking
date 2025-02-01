@@ -3,9 +3,9 @@ package service
 import (
 	"fmt"
 
-	adapter "github.com/okyws/go-banking/adapter/repository"
-	"github.com/okyws/go-banking/domain"
-	"github.com/okyws/go-banking/dto"
+	adapter "github.com/rismapa/go-banking/adapter/repository"
+	"github.com/rismapa/go-banking/domain"
+	"github.com/rismapa/go-banking/dto"
 )
 
 type AccountService interface {
