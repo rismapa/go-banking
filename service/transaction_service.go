@@ -3,7 +3,7 @@ package service
 import (
 	"fmt"
 
-	adapter "github.com//go-banking/adapter/repository"
+	adapter "github.com/rismapa/go-banking/adapter/repository"
 	"github.com/rismapa/go-banking/domain"
 )
 

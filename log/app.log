@@ -1,0 +1,2 @@
+{"level":"info","trace_id":"42a9db65-d37c-471f-b1b8-14681dc97802","time":"2025-02-02T08:43:52+07:00","message":"Zerolog initiated successfully"}
+{"level":"fatal","trace_id":"42a9db65-d37c-471f-b1b8-14681dc97802","error":"open .env: no such file or directory","time":"2025-02-02T08:43:52+07:00","message":"Error loading .env file"}
